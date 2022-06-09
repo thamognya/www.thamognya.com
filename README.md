@@ -6,9 +6,10 @@ This is the source code of my website.
 
 It uses:
 
--   NextJS (React) typescript
--   Chakra-ui
--   Three.js
+-  django
+-  NextJS (React) typescript
+-  Chakra-ui
+-  Three.js
 
 ## License
 
