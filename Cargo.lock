@@ -477,6 +477,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "www-thamognya-com"
+version = "0.0.1"
+dependencies = [
+ "yew",
+ "yew-router",
+]
+
+[[package]]
 name = "yew"
 version = "0.19.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -538,12 +546,4 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "yew-test"
-version = "0.1.0"
-dependencies = [
- "yew",
- "yew-router",
 ]
