@@ -4,9 +4,6 @@ use yew_router::prelude::*;
 // file imports
 #[path = "./pages/index.rs"] mod index;
 #[path = "./pages/contact.rs"] mod contact;
-#[path = "./pages/projects.rs"] mod projects;
-#[path = "./pages/experiences.rs"] mod experiences;
-#[path = "./pages/awards.rs"] mod awards;
 #[path = "./pages/404.rs"] mod error;
 // routes that I want to use
 # [derive(Clone, Routable, PartialEq)]
@@ -16,12 +13,6 @@ enum Route
     Index,
     #[at("/contact")]
     Contact,
-    #[at("/projects")]
-    Projects,
-    #[at("/experiences")]
-    Experiences,
-    #[at("/awards")]
-    Awards,
     #[not_found]
     #[at("/404")]
     NotFound,
@@ -42,24 +33,6 @@ fn switch(route: &Route) -> Html
         {
             <>
                 <contact::Contact />
-            </>
-        },
-        Route::Projects => html!
-        {
-            <>
-                <projects::Projects />
-            </>
-        },
-        Route::Experiences => html!
-        {
-            <>
-                <experiences::Experiences />
-            </>
-        },
-        Route::Awards => html!
-        {
-            <>
-                <awards::Awards />
             </>
         },
         Route::NotFound => html!

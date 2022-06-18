@@ -6,7 +6,10 @@ pub fn index() -> Html
     html!
     {
         <>
-            <h1>{ "Testing" }</h1>
+            <h1>{ "Header" }</h1>
+            <h1>{ "Projects" }</h1>
+            <h1>{ "Experiences" }</h1>
+            <h1>{ "Awards" }</h1>
         </>
     }
 }
