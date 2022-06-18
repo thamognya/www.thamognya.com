@@ -1,7 +1,8 @@
 // imports
 use yew::prelude::*;
 // file imports
-mod router;
+#[path = "./router.rs"] mod router;
+#[path = "./components/navbar.rs"] mod navbar;
 
 #[function_component(App)]
 fn app() -> Html 
@@ -10,7 +11,7 @@ fn app() -> Html
     {
         <>
             // sample navbar
-            <h1>{ "Hello" }</h1>
+            <navbar::NavBar />
             // get the router from the router module
             <router::Router />
         </>

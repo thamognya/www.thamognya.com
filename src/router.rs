@@ -4,7 +4,10 @@ use yew_router::prelude::*;
 // file imports
 #[path = "./pages/index.rs"] mod index;
 #[path = "./pages/contact.rs"] mod contact;
-#[path = "./pages/project_list.rs"] mod project_list;
+#[path = "./pages/projects.rs"] mod projects;
+#[path = "./pages/experiences.rs"] mod experiences;
+#[path = "./pages/awards.rs"] mod awards;
+#[path = "./pages/404.rs"] mod error;
 // routes that I want to use
 # [derive(Clone, Routable, PartialEq)]
 enum Route 
@@ -14,17 +17,11 @@ enum Route
     #[at("/contact")]
     Contact,
     #[at("/projects")]
-    ProjectHomePage,
-    #[at("/projects/:id")]
-    Projects {id: u8},
-    #[at("/experience")]
-    ExperienceHomePage,
-    #[at("/experience/:id")]
-    Experience {id: u8},
+    Projects,
+    #[at("/experiences")]
+    Experiences,
     #[at("/awards")]
-    AwardsHomePage,
-    #[at("/awards/:id")]
-    Awards {id: u8},
+    Awards,
     #[not_found]
     #[at("/404")]
     NotFound,
@@ -47,52 +44,34 @@ fn switch(route: &Route) -> Html
                 <contact::Contact />
             </>
         },
-        Route::ProjectHomePage => html!
+        Route::Projects => html!
         {
             <>
-                <h1>{ "Projects List" }</h1>
+                <projects::Projects />
             </>
         },
-        Route::Projects {id} => html!
+        Route::Experiences => html!
         {
             <>
-                <p>{ format!("Projects {}", id) }</p>
+                <experiences::Experiences />
             </>
         },
-        Route::ExperienceHomePage => html!
+        Route::Awards => html!
         {
             <>
-                <h1>{ "Experience List" }</h1>
-            </>
-        },
-        Route::Experience { id } => html!
-        {
-            <>
-                <p>{ format!("Experience {}", id) }</p>
-            </>
-        },
-        Route::AwardsHomePage=> html!
-        {
-            <>
-                <h1>{ "Awards List" }</h1>
-            </>
-        },
-        Route::Awards { id } => html!
-        {
-            <>
-                <p>{ format!("Awards {}", id) }</p>
+                <awards::Awards />
             </>
         },
         Route::NotFound => html!
         {
             <>
-                <p>{ "404 Error: Link Not Found" }</p>
+                <error::Error />
             </>
         },
         _ => html!
         {
             <>
-                <h1>{ "Hello" }</h1>
+                <index::Index />
             </>
         }
     }
