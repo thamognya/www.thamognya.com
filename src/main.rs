@@ -9,7 +9,9 @@ fn app() -> Html
     html!
     {
         <>
-            <h1>{ "Hello" }</h1> //navbar
+            // sample navbar
+            <h1>{ "Hello" }</h1>
+            // get the router from the router module
             <router::Router />
         </>
     }
@@ -17,5 +19,6 @@ fn app() -> Html
 
 fn main() 
 {
+    // start the app
     yew::start_app::<App>();
 }

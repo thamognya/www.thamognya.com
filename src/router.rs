@@ -28,6 +28,7 @@ enum Route
     NotFound,
 }
 
+// this is the route matching function
 fn switch(route: &Route) -> Html
 {
     match route
@@ -95,6 +96,8 @@ fn switch(route: &Route) -> Html
     }
 }
 
+// this allows for the rendering of pages after the url is changed
+// it is public to be used in main.rs
 #[function_component(Router)]
 pub fn router() -> Html {
     html! {
