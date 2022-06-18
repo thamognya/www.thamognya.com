@@ -10,6 +10,7 @@ as it allows for the use of html tags without any errors with html tag fragmenti
 
 ## File Structure
 
+```c
 main.rs
 ^
 |
@@ -19,3 +20,4 @@ router.rs
 diferent files
 
 kind of like react with react-router-dom
+```
