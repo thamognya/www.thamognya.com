@@ -99,8 +99,10 @@ fn switch(route: &Route) -> Html
 // this allows for the rendering of pages after the url is changed
 // it is public to be used in main.rs
 #[function_component(Router)]
-pub fn router() -> Html {
-    html! {
+pub fn router() -> Html 
+{
+    html! 
+    {
         <BrowserRouter>
             <Switch<Route> render={Switch::render(switch)} />
         </BrowserRouter>
