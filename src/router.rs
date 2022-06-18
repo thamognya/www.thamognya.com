@@ -2,7 +2,9 @@
 use yew::prelude::*;
 use yew_router::prelude::*;
 // file imports
-
+#[path = "./pages/index.rs"] mod index;
+#[path = "./pages/contact.rs"] mod contact;
+#[path = "./pages/project_list.rs"] mod project_list;
 // routes that I want to use
 # [derive(Clone, Routable, PartialEq)]
 enum Route 
@@ -36,13 +38,13 @@ fn switch(route: &Route) -> Html
         Route::Index => html!
         {
             <>
-                <h1>{ "Hello" }</h1>
+                <index::Index />
             </>
         },
         Route::Contact => html!
         {
             <>
-                <h1>{ "Contact" }</h1>
+                <contact::Contact />
             </>
         },
         Route::ProjectHomePage => html!
