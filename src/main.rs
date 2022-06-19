@@ -1,15 +1,23 @@
 // imports
 use yew::prelude::*;
 // file imports
+#[path = "./components/navbar.rs"] mod navbar;
+
+#[path = "./router.rs"] mod router;
 
 #[function_component(App)]
 fn app() -> Html 
 {
-    html!
+    html! 
     {
         <>
-            <div class={ "min-h-screen min-w-screen bg-[#282828]" }>
-                <h1 class={ "text-[#fbf1c7]" }>{ "Hello" }</h1>
+            <div>
+                <div class={ "min-h-screen min-w-screen bg-[#282828]" }>
+                    // navbar
+                    <navbar::NavBar />
+                    // rest of the stuff
+                    <router::Router />
+                </div>
             </div>
         </>
     }
