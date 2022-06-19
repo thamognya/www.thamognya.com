@@ -11,11 +11,9 @@ fn app() -> Html
     html! 
     {
         <>
-            <div>
-                <div class={ "min-h-screen min-w-screen bg-[#282828]" }>
-                    // navbar
+            <div class={ "bg-[#fff]" }> // change this later
+                <div class={ "container h-screen max-w-xl mx-auto" }>
                     <navbar::NavBar />
-                    // rest of the stuff
                     <router::Router />
                 </div>
             </div>
