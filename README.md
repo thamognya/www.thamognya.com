@@ -22,3 +22,8 @@ diferent files
 
 kind of like react with react-router-dom
 ```
+
+# Colors
+
+main.rs -> bg #000
+navbar.rs -> bg #000
