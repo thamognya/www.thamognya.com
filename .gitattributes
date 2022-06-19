@@ -2,4 +2,6 @@
 *.html linguist-language=Rust
 *.scss linguist-language=Rust
 *.md linguist-language=Rust
+*.svg linguist-language=Rust
+*.png linguist-language=Rust
 *.toml linguist-language=Python
