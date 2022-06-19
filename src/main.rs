@@ -12,7 +12,7 @@ fn app() -> Html
     {
         <>
             <div class={ "bg-[#fff]" }> // change this later
-                <div class={ "container h-screen max-w-3xl mx-auto bg-[#ff0000]" }> // debugging color #ff0000
+                <div class={ "container h-screen max-w-3xl mx-auto" }> // debugging color #ff0000
                     <navbar::NavBar />
                     <router::Router />
                 </div>
