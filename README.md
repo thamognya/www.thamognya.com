@@ -28,3 +28,7 @@ kind of like react with react-router-dom
 main.rs -> bg #000
 navbar.rs -> bg #000
 ```
+
+# Todo
+
+Working on dockerfile
