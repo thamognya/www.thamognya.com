@@ -8,34 +8,35 @@ pub fn navbar() -> Html
         <>
             <div class={ "sticky top-0 bg-[#fff] opacity-90 container mx-auto max-w-3xl py-8" }> // think about py vs p
                 <nav class={ "flex" }>
-                    <div class={ "flex-none w-14" }>
+                    <div class={ "flex-none w-20" }>
                         <a href="/">
-                            <img class={ "hover:rotate-45" } src={ "../assets/logo.png" } alt={ "Logo" } /> // fix this later
+                            //<img class={ "hover:rotate-45" } src={ "../assets/logo.png" } alt={ "Logo" } /> // fix this later
+                            <h1 class={ "hover:font-bold" }>{ "Thamognya" }</h1>
                         </a>
                     </div>
                     <div class={ "flex-auto w-64" }>
                         <div class={ "flex space-x-4 justify-end" }>
-                            <a href={ "/" }>
+                            <a href={ "/" } target={ "_blank" }>
                                 <h1 class={ "hover:underline decoration-4" }>
                                     { "Home" }
                                 </h1>
                             </a>
-                            <a href={ "/contact" }>
+                            <a href={ "/contact" } target={ "_blank" }>
                                 <h1 class={ "hover:underline decoration-4" }>
                                     { "Contact" }
                                 </h1>
                             </a>
-                            <a href={ "https://git.thamognya.com/" }>
+                            <a href={ "https://git.thamognya.com/" } target={ "_blank" }>
                                 <h1 class={ "hover:underline decoration-4" }>
                                     { "Git" }
                                 </h1>
                             </a>
-                            <a href={ "https://github.com/Thamognya" }>
+                            <a href={ "https://github.com/Thamognya" } target={ "_blank" }>
                                 <h1 class={ "hover:underline decoration-4" }>
                                     { "Github" }
                                 </h1>
                             </a>
-                            <a href={ "https://blog.thamognya.com/" }>
+                            <a href={ "https://blog.thamognya.com/" } target={ "_blank" }>
                                 <h1 class={ "hover:underline decoration-4" }>
                                     { "Blog" }
                                 </h1>

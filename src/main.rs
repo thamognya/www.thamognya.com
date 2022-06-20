@@ -11,7 +11,7 @@ fn app() -> Html
     html! 
     {
         <>
-            <div class={ "bg-[#fff]" }> // change this later
+            <div class={ "font-mono bg-[#fff]" }> // change this later
                 <div class={ "container h-screen max-w-3xl mx-auto" }> // debugging color #ff0000
                     // anything that should be shown on every page
                     // should be put here above or below router
