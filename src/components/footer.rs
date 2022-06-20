@@ -7,9 +7,12 @@ pub fn footer() -> Html
     html! 
     {
         <>
+            <br />
+            <br />
+            <hr />
             <div class={ "static bottom-0 bg-slate-50 opacity-90 container mx-auto max-w-3xl py-8" }> // think about py vs p
                 <footer>
-                    <div class={ "flex justify-center space-x-4" }>
+                    <div class={ "flex justify-center space-x-4 text-center sm:truncate" }>
                         //<h1>{ format!("Copyright {} Name. All Rights Reserved.", current_date.year()) }</h1>
                         <h1>{ "Copyright Thamognya Kodi. All Rights Reserved." }</h1>
                     </div>
