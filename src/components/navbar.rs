@@ -6,7 +6,7 @@ pub fn navbar() -> Html
     html! 
     {
         <>
-            <div class={ "sticky top-0 bg-gray-50 opacity-90 container mx-auto max-w-3xl sm:py-8" }> // think about py vs p
+            <div class={ "sticky top-0 bg-gray-50 opacity-90 container mx-auto max-w-3xl p-8" }> // think about py vs p
                 <nav class={ "flex" }>
                     <div class={ "flex-none w-20" }>
                         <a href="/">

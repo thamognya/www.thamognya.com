@@ -17,6 +17,21 @@ pub fn index() -> Html
                         { "Hey Welcome to the website. My name is Thamognya Kodi, I am currently a sophmore in high school." }
                     </p>
                 </div>
+                <div>
+                    <h1 class={ "underline decoration-4 decoration-gray-700 text-2xl text-center sm:text-left" }>
+                        { "Projects" }
+                    </h1>
+                </div>
+                <div class={ "px-10" }>
+                    <p>
+                        { "Hey this is the list of my projects below: " }
+                    </p>
+                </div>
+                <div class={ "px-10" }>
+                    <p>
+                        { "Hey this is the list of my projects below: " }
+                    </p>
+                </div>
             </div>
         </>
     }
