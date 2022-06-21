@@ -3,9 +3,8 @@ import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import type { AppProps } from 'next/app'
 
-const Main = ({ children, router }: AppProps) => {
+const Main = ({ children, router }) => {
     return (
         <Box as="main" pb={8}>
             <Head>
