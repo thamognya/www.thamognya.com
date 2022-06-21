@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/navbar.jsx", "components/chakra.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/theme.jsx", "components/layouts/main.jsx", "components/navbar.jsx", "components/chakra.jsx"],
   "exclude": ["node_modules"]
 }
