@@ -77,10 +77,10 @@ const Navbar = props => {
                     flexGrow={1}
                     mt={{ base: 4, md: 0 }}
                 >
-                    <LinkItem href="/contact" target="_blank" path={path}>
+                    <LinkItem href="/contact" path={path}>
                         Contact
                     </LinkItem>
-                    <LinkItem href="/projects" target="_blank" path={path}>
+                    <LinkItem href="/projects" path={path}>
                         Projects
                     </LinkItem>
                     <LinkItem
@@ -105,30 +105,32 @@ const Navbar = props => {
 
                 <Box flex={1} align="right">
                     <ThemeToggleButton />
-                    <Box ml={2} bg={useColorModeValue('#F9FAFB', '#262626')} display={{ base: 'inline-block', md: 'none' }}>
-                        <Menu bg={useColorModeValue('#F9FAFB', '#262626')} isLazy id="navbar-menu">
+                    <Box
+                        ml={2}
+                        bg={useColorModeValue('#F9FAFB', '#262626')}
+                        display={{ base: 'inline-block', md: 'none' }}
+                    >
+                        <Menu
+                            bg={useColorModeValue('#F9FAFB', '#262626')}
+                            isLazy
+                            id="navbar-menu"
+                        >
                             <MenuButton
                                 as={IconButton}
                                 icon={<HamburgerIcon />}
                                 variant="outline"
                                 aria-label="Options"
                             />
-                            <MenuList bg={useColorModeValue('#F9FAFB', '#262626')}>
+                            <MenuList
+                                bg={useColorModeValue('#F9FAFB', '#262626')}
+                            >
                                 <NextLink href="/" target="_blank" passHref>
                                     <MenuItem as={Link}>Home</MenuItem>
                                 </NextLink>
-                                <NextLink
-                                    href="/contact"
-                                    target="_blank"
-                                    passHref
-                                >
+                                <NextLink href="/contact" passHref>
                                     <MenuItem as={Link}>Contact</MenuItem>
                                 </NextLink>
-                                <NextLink
-                                    href="/projects"
-                                    target="_blank"
-                                    passHref
-                                >
+                                <NextLink href="/projects" passHref>
                                     <MenuItem as={Link}>Projects</MenuItem>
                                 </NextLink>
                                 <NextLink

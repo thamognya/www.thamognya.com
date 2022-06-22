@@ -1,0 +1,7 @@
+*.tsx linguist-language=TypeScript
+*.jsx linguist-language=TypeScript
+*.js linguist-language=TypeScript
+*.ts linguist-language=TypeScript
+*.md linguist-language=TypeScript
+*.json linguist-language=TypeScript
+
