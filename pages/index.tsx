@@ -16,7 +16,7 @@ import {
 
 const Home: NextPage = () => {
     return (
-        <Box>Hello</Box>
+        <Box>Hey</Box>
     )
 }
 
