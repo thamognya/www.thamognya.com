@@ -18,7 +18,7 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 
-const LinkItem = ({ href, path, target, children, ...props }: any) => {
+const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
     const inactiveColor = useColorModeValue('#525252', '#F5F5F5')
     return (
@@ -42,7 +42,7 @@ const LinkItem = ({ href, path, target, children, ...props }: any) => {
     )
 }
 
-const Navbar = ({props}: any) => {
+const Navbar = props => {
     const { path } = props
 
     return (
