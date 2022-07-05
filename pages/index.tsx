@@ -15,9 +15,7 @@ import {
 } from '@chakra-ui/react'
 
 const Home: NextPage = () => {
-    return (
-        <Box>Hey</Box>
-    )
+    return <Box>Hey</Box>
 }
 
 export default Home
