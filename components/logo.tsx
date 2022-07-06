@@ -4,14 +4,8 @@ import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
-    font-weight: bold;
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
     font-size: 18px;
-    display: inline-flex;
-    align-items: center;
-    height: 30px;
-    line-height: 20px;
-    padding: 10px;
-
     img {
         transition: 200ms ease;
     }
@@ -28,9 +22,9 @@ const Logo = () => {
                 <LogoBox>
                     <Text
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                        fontFamily='M PLUS Rounded 1c", sans-serif'
-                        fontWeight="bold"
+                        fontFamily='Fira Code'
                         ml={3}
+                        _hover = { { transform: "scale(1.1)" } }
                     >
                         Thamognya Kodi
                     </Text>

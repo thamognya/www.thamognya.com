@@ -20,7 +20,7 @@ import Paragraph from '../components/paragraph'
 
 const Home = () => {
     return (
-      <Box>I am currently working on this part of the website</Box>
+      <Box>I am currently working on this part of the website ==></Box>
     )
 }
 

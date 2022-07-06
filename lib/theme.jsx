@@ -32,7 +32,8 @@ const components = {
 }
 
 const fonts = {
-    heading: "'M PLUS Rounded 1c'"
+    heading: `'Fira Code', sans-serif`,
+    body: `'Fira Code'`,
 }
 
 const colors = {
