@@ -83,6 +83,9 @@ const Navbar = props => {
                     <LinkItem href="/projects" path={path}>
                         Projects
                     </LinkItem>
+                    <LinkItem href="/cv.pdf" path={path}>
+                        CV
+                    </LinkItem>
                     <LinkItem
                         href="https://git.thamognya.com"
                         target="_blank"
@@ -132,6 +135,9 @@ const Navbar = props => {
                                 </NextLink>
                                 <NextLink href="/projects" passHref>
                                     <MenuItem as={Link}>Projects</MenuItem>
+                                </NextLink>
+                                <NextLink href="/cv.pdf" passHref>
+                                    <MenuItem as={Link}>CV</MenuItem>
                                 </NextLink>
                                 <NextLink
                                     href="https://git.thamognya.com/"
