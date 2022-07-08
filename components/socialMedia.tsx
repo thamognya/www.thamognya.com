@@ -34,7 +34,7 @@ const Social = () => {
                 <SiGitea />
                 <h1 className="pl-2">Gitea</h1>
             </a>
-            <a href="www.linkedin.com/in/thamognya" target="_blank" rel="noreferrer" className="py-5 md:px-10 px-20 hover:scale-125 rounded-full bg-sky-600 text-slate-50 bg-opacity-75 flex items-center">
+            <a href="https://www.linkedin.com/in/thamognya" target="_blank" rel="noreferrer" className="py-5 md:px-10 px-20 hover:scale-125 rounded-full bg-sky-600 text-slate-50 bg-opacity-75 flex items-center">
                 <FaLinkedin />
                 <h1 className="pl-2">LinkedIn</h1>
             </a>
