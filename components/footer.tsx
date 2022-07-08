@@ -1,5 +1,6 @@
-const Footer = () => {
+// footer
 
+const Footer = () => {
     return (
         <footer>
             <hr />

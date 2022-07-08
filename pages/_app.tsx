@@ -5,11 +5,11 @@ import Main from '../components/layouts/main'
 
 function MyApp({ Component, pageProps, router }: AppProps) {
     return (
-    <>
-        <Main router={router}>
-            <Component {...pageProps} />
-        </Main>
-    </>
+        <>
+            <Main router={router}>
+                <Component {...pageProps} />
+            </Main>
+        </>
     )
 }
 

@@ -7,9 +7,9 @@ import Footer from '../components/footer'
 
 const Home: NextPage = () => {
     return (
-    <>
-        <Masthead />
-    </>
+        <>
+            <Masthead />
+        </>
     )
 }
 
