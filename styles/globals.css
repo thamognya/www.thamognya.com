@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "scientifica";
+  src: url("../assets/scientifica.ttf");
+}
+
 bod {
     background: black;
     padding: 0;

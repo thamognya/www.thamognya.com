@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const Main = ({children, router}: any) => {
     return (
-        <div className="font-fira">
+        <div className="font-scientifica">
             <div>
                 <Head>
                     <meta charSet="UTF-8" /> 

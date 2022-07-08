@@ -7,6 +7,7 @@ module.exports = {
     theme: {
         fontFamily: {
             fira: ['Fira Code'],
+            scientifica: ['scientifica'],
         },
         letterSpacing: {
             tight: '-0.15em',
