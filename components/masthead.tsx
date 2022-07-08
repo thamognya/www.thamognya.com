@@ -1,24 +1,24 @@
 // masthead of the website
-import React, {useRef, useContext, useState, useCallback} from 'react'
+import React, { useRef, useContext, useState, useCallback } from 'react'
 import Image from 'next/image'
 import { ArrowDownIcon, ChevronDownIcon } from '@chakra-ui/icons'
-import {MdOutlineKeyboardArrowDown} from 'react-icons/md'
+import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import { ScrollContext } from '../utils/scrollObserver'
 // file imports
 
 const Masthead: React.FC = () => {
     const refContainer = useRef<HTMLDivElement>(null)
-    const {scrollY} = useContext(ScrollContext)
+    const { scrollY } = useContext(ScrollContext)
     let progress = 0
-    const {current: elContainer} = refContainer
+    const { current: elContainer } = refContainer
     if (elContainer) {
         progress = Math.min(1, scrollY / elContainer.clientHeight)
     }
 
     return (
         <>
-            <div 
-                ref={refContainer} 
+            <div
+                ref={refContainer}
                 className="min-h-screen flex flex-col items items-center justify-center sticky top-0 -z-10"
                 style={{
                     transform: `translateY(-${progress * 20}vh)`
@@ -31,7 +31,7 @@ const Masthead: React.FC = () => {
                     playsInline
                     className="absolute w-screen h-screen object-cover"
                 >
-                    <source src="/assets/bg.mp4" type="video/mp4"/>
+                    <source src="/assets/bg.mp4" type="video/mp4" />
                 </video>
                 <div className="p-12 z-10 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-bg-fg text-center flex-1 flex items-center justify-center flex-col">
                     <h1 className="mb-6 text-4xl xl:text-5xl">Thamognya</h1>

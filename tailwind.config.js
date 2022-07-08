@@ -21,8 +21,8 @@ module.exports = {
                 'bg-fg': '#3e495c',
                 'bg-red': '#f9ac9f',
                 'bg-gray': '#cad3df',
-                'bg-purple': '#5c6085',
-            },
+                'bg-purple': '#5c6085'
+            }
         }
     },
     plugins: []

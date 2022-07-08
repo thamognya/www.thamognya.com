@@ -7,7 +7,9 @@ function MyApp({ Component, pageProps, router }) {
     return (
         <>
             <ScrollObserver>
-                <Component {...pageProps} />
+                <Main>
+                    <Component {...pageProps} />
+                </Main>
             </ScrollObserver>
         </>
     )
