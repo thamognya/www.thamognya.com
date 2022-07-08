@@ -6,9 +6,16 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            fira: ['Fira Code']
+            fira: ['Fira Code'],
         },
-        extend: {}
+        letterSpacing: {
+            tight: '-0.15em',
+        },
+        extend: {
+            height: {
+                'half-screen': '50vh',
+            },
+        }
     },
     plugins: []
 }
