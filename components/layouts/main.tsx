@@ -15,7 +15,7 @@ const Main = ({ children, router }: any) => {
                     <meta name="author" content="Thamognya Kodi" />
                     <meta name="keywords" content="Thamognya, Kodi, Links" />
                     <link rel="shortcut icon" href="/assets/pfp.png" />
-                    <title>Thamognya Kodi - HomePage - {router.asPath}</title>
+                    <title>Thamognya Kodi - HomePage</title>
                 </Head>
             </div>
             {children}

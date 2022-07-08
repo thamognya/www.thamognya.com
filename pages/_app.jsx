@@ -1,14 +1,14 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
 // files
+import ScrollObserver from '../utils/scrollObserver'
 import Main from '../components/layouts/main'
 
-function MyApp({ Component, pageProps, router }: AppProps) {
+function MyApp({ Component, pageProps, router }) {
     return (
         <>
-            <Main router={router}>
+            <ScrollObserver>
                 <Component {...pageProps} />
-            </Main>
+            </ScrollObserver>
         </>
     )
 }
