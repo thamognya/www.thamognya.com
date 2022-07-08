@@ -11,7 +11,7 @@ const Masthead: React.FC = () => {
             </video>
             <div className="p-12 font-bold z-10 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col">
                 <h2 className="mv-2 text-2xl xl:text-3xl">{"<======>"}</h2>
-                <h1 className="mb-6 text-4xl xl:text-5xl text-[#5c6085]">Thamognya</h1>
+                <h1 className="mb-6 text-4xl xl:text-5xl">Thamognya</h1>
                 <h2 className="mv-2 text-2xl xl:text-3xl">{"<======>"}</h2>
             </div>
         </div>
