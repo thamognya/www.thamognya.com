@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    darkMode: ['class', '[data-mode="dark"]'],
+    darkMode: 'class',
     content: [
         './pages/**/*.{js,ts,jsx,tsx}',
         './components/**/*.{js,ts,jsx,tsx}'
@@ -22,7 +22,9 @@ module.exports = {
                 'bg-fg': '#3e495c',
                 'bg-red': '#f9ac9f',
                 'bg-gray': '#cad3df',
-                'bg-purple': '#5c6085'
+                'bg-purple': '#5c6085',
+                'bg-light-gray': '#a6bac7',
+                'bg-pink': '#f5bece'
             }
         }
     },

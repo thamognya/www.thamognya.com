@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaLinkedin, FaGithub, FaBlogger } from 'react-icons/fa'
 
 import { SiGitea } from 'react-icons/si'
@@ -9,7 +8,7 @@ import { BsFiles } from 'react-icons/bs'
 
 // file imports
 
-const About: React.FC = () => {
+const About = () => {
     return (
         <>
             <section className="flex flex-col bg-bg-bg dark:bg-bg-fg py-20 text-3xl md:text-4 min-h-screen">

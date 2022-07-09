@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Skills: React.FC = () => {
+const Skills = () => {
     return (
         <>
             <div className="bg-bg-fg dark:bg-bg-bg text-bg-bg dark:text-bg-fg">

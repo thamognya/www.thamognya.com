@@ -19,10 +19,8 @@
         "next-env.d.ts",
         "**/*.ts",
         "**/*.tsx",
-        "pages/_app.jsx",
-        "utils/scrollObserver.jsx",
-        "components/navbar.jsx",
-        "components/themeToggle.jsx"
+        "pages/_app.tsx",
+        "utils/scrollObserver.jsx"
     ],
     "exclude": ["node_modules"]
 }
