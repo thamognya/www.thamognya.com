@@ -12,6 +12,7 @@ const Home: NextPage = () => {
         <>
             <Masthead />
             <Projects />
+            <Skills />
         </>
     )
 }

@@ -11,7 +11,7 @@ import { BsFiles } from 'react-icons/bs'
 const Social = () => {
     return (
         <>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 h-half grid-cols-1 gap-y-5 gap-x-5 place-items-center">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 h-half grid-cols-1 gap-y-5 gap-x-5 place-items-center lg:h-half-screen md:h-half-screen sm:min-h-half-screen">
                 <a
                     href="https://www.thamognya.com"
                     target="_blank"
