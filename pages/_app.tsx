@@ -4,7 +4,7 @@ import React from 'react'
 // files
 import ScrollObserver from '../utils/scrollObserver'
 import Main from '../components/layouts/main'
-import '../styles/globals.css'
+import '../styles/globals.sass'
 
 function MyApp({Component, pageProps, router}: AppProps) {
     return (

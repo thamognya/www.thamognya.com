@@ -1,0 +1,29 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap')
+
+@font-face
+    font-family: 'scientifica'
+    src: url('../public/assets/scientifica.ttf')
+
+$light-bg: #f4f5f6
+$dark-bg: #3e495c
+
+*
+    font-family: 'Fira Code', monospace
+    padding: 0
+    margin: 0
+
+*::after,
+*::before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background: $dark-bg
+    /*color-scheme*/
+    line-height: 1.1
+    letter-spacing: 0em
