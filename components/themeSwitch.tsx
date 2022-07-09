@@ -7,14 +7,18 @@ const ThemeToggler = () => {
     const [mounted, setMounted] = useState(false)
     useEffect(() => setMounted(true), [])
     if (!mounted) return null
+
     return (
         <button
             className="w-8 h-8 rounded-full bg-bg-fg dark:bg-bg-bg flex items-center justify-center hover:ring-2 ring-bg-bg dark:ring-bg-fg transition-all duration-300 focus:outline-none"
-
             onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
             aria-label="Toggle Dark Mode"
         >
-            {theme === 'light' ? (<FaMoon className="text-bg-bg"/>) : (<FaSun className="text-bg-fg"/>)}
+            {theme === 'light' ? (
+                <FaMoon className="text-bg-bg" />
+            ) : (
+                <FaSun className="text-bg-fg" />
+            )}
         </button>
     )
 }

@@ -6,7 +6,7 @@ import ScrollObserver from '../utils/scrollObserver'
 import Main from '../components/layouts/main'
 import '../styles/globals.sass'
 
-function MyApp({Component, pageProps, router}: AppProps) {
+function MyApp({ Component, pageProps, router }: AppProps) {
     return (
         <>
             <Main>
