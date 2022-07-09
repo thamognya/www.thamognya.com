@@ -15,6 +15,12 @@ module.exports = {
             tight: '-0.15em'
         },
         extend: {
+            backgroundImage: (theme) => ({
+                'image-one':
+                    "url('/assets/bg.mp4')",
+                'image-two':
+                    "url('/assets/bg.mp4')",
+            }),
             height: {
                 'half-screen': '50vh'
             },
@@ -26,8 +32,13 @@ module.exports = {
                 'bg-purple': '#5c6085',
                 'bg-light-gray': '#a6bac7',
                 'bg-pink': '#f5bece'
-            }
+            },
         }
+    },
+    variants: {
+        extend: {
+          backgroundImage: ['dark'],
+        },
     },
     plugins: []
 }

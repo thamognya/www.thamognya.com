@@ -1,11 +1,11 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Image from "next/image"
-import Link from 'next/link'
 
 const Logo = () => {
     let h_w = 120/3;
     return (
     <>
-        <link href="/">
+        <a href="/">
             <div className="inline-flex items-center gap-1">
                 <Image 
                     className="hover:rotate-45 rounded-full"
@@ -15,12 +15,12 @@ const Logo = () => {
                     alt="bird logo"
                 />
                 <h1 
-                    className="hover:font-bold text-bg-fg dark:text-bg-fg"
+                    className="text-bg-fg dark:text-bg-fg"
                 >
                     {"<"}Thamognya{"/>"}
                 </h1>
             </div>
-        </link>
+        </a>
     </>
     )
 }

@@ -28,7 +28,7 @@ const About = () => {
                                 href="https://www.thamognya.com"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="py-5 px-8 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 flex items-center"
+                                className="py-5 px-8 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 dark:bg-opacity-100 flex items-center"
                             >
                                 <CgWebsite />
                                 <h1 className="pl-2">Website</h1>
@@ -37,7 +37,7 @@ const About = () => {
                                 href="https://github.com/Thamognya"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="py-5 px-10 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 flex items-center"
+                                className="py-5 px-10 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 dark:bg-opacity-100 flex items-center"
                             >
                                 <FaGithub />
                                 <h1 className="pl-2">Github</h1>
@@ -46,7 +46,7 @@ const About = () => {
                                 href="https://git.thamognya.com"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="py-5 px-12 hover:scale-125 rounded-full bg-bg-gray text-bg-fg  bg-opacity-75 flex items-center"
+                                className="py-5 px-12 hover:scale-125 rounded-full bg-bg-gray text-bg-fg  bg-opacity-75 dark:bg-opacity-100 flex items-center"
                             >
                                 <SiGitea />
                                 <h1 className="pl-2">Gitea</h1>
@@ -55,7 +55,7 @@ const About = () => {
                                 href="https://www.linkedin.com/in/thamognya"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="py-5 px-5 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 flex items-center"
+                                className="py-5 px-5 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 dark:bg-opacity-100 flex items-center"
                             >
                                 <FaLinkedin />
                                 <h1 className="pl-2">LinkedIn</h1>
@@ -64,7 +64,7 @@ const About = () => {
                                 href="https://blog.thamognya.com"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="py-5 px-16 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 flex items-center"
+                                className="py-5 px-16 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 dark:bg-opacity-100 flex items-center"
                             >
                                 <FaBlogger />
                                 <h1 className="pl-2">Blog</h1>
@@ -73,7 +73,7 @@ const About = () => {
                                 href="https://www.thamognya.com/cv.pdf"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="py-5 px-20 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 flex items-center"
+                                className="py-5 px-20 hover:scale-125 rounded-full bg-bg-gray text-bg-fg bg-opacity-75 dark:bg-opacity-100 flex items-center"
                             >
                                 <BsFiles />
                                 <h1 className="pl-2">CV</h1>

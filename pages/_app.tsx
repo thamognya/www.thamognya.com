@@ -5,6 +5,8 @@ import React from 'react'
 import ScrollObserver from '../utils/scrollObserver'
 import Main from '../components/layouts/main'
 import '../styles/globals.sass'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 
 function MyApp({ Component, pageProps, router }: AppProps) {
     return (
@@ -12,7 +14,9 @@ function MyApp({ Component, pageProps, router }: AppProps) {
             <Main>
                 <ScrollObserver>
                     <ThemeProvider enableSystem={true} attribute="class">
+                        <Navbar />
                         <Component {...pageProps} />
+                        <Footer />
                     </ThemeProvider>
                 </ScrollObserver>
             </Main>
