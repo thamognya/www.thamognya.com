@@ -5,7 +5,7 @@ const Logo = () => {
     return (
     <>
         <a href="/">
-            <div className="inline-flex items-center">
+            <div className="inline-flex items-center gap-1">
                 <Image 
                     className="hover:rotate-45 rounded-full"
                     src="/assets/pfp.png" 
@@ -14,9 +14,9 @@ const Logo = () => {
                     alt="bird logo"
                 />
                 <h1 
-                    className="font-edu_vic_wa_nt_beginner hover:font-bold text-bg-fg dark:text-bg-fg"
+                    className="hover:font-bold text-bg-fg dark:text-bg-fg"
                 >
-                    Thamognya
+                    {"<"}Thamognya{"/>"}
                 </h1>
             </div>
         </a>
