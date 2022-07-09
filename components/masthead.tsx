@@ -39,7 +39,7 @@ const Masthead: React.FC = () => {
                         {'<'}OS Enthusiast{'/>'}
                     </h2>
                 </div>
-                <div className="flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 z-10 transition-all duration-1000">
+                <div className="flex-grow-0 pb-20 md:pb-30 transition-all duration-1000 z-10 transition-all duration-1000">
                     <MdOutlineKeyboardArrowDown className="hover:scale-[9] fill-bg-fg font-light scale-[7]" />
                 </div>
             </div>
