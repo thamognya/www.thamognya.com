@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Masthead from '../components/masthead'
 import Footer from '../components/footer'
 import Projects from '../components/accounts'
+import Skills from '../components/skills'
 
 const Home: NextPage = () => {
     return (

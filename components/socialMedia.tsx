@@ -11,7 +11,7 @@ import { BsFiles } from 'react-icons/bs'
 const Social = () => {
     return (
         <>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-5 gap-x-5 place-items-center">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 h-half grid-cols-1 gap-y-5 gap-x-5 place-items-center">
                 <a
                     href="https://www.thamognya.com"
                     target="_blank"
@@ -43,7 +43,7 @@ const Social = () => {
                     href="https://www.linkedin.com/in/thamognya"
                     target="_blank"
                     rel="noreferrer"
-                    className="py-5 md:px-10 px-20 hover:scale-125 rounded-full bg-sky-600 text-slate-50 bg-opacity-75 flex items-center"
+                    className="py-5 md:px-8 px-20 hover:scale-125 rounded-full bg-sky-600 text-slate-50 bg-opacity-75 flex items-center"
                 >
                     <FaLinkedin />
                     <h1 className="pl-2">LinkedIn</h1>
@@ -52,7 +52,7 @@ const Social = () => {
                     href="https://blog.thamognya.com"
                     target="_blank"
                     rel="noreferrer"
-                    className="py-5 md:px-10 px-20 hover:scale-125 rounded-full bg-violet-600 text-slate-50 bg-opacity-75 flex items-center"
+                    className="py-5 md:px-12 px-20 hover:scale-125 rounded-full bg-violet-600 text-slate-50 bg-opacity-75 flex items-center"
                 >
                     <FaBlogger />
                     <h1 className="pl-2">Blog</h1>
@@ -61,7 +61,7 @@ const Social = () => {
                     href="https://www.thamognya.com/cv.pdf"
                     target="_blank"
                     rel="noreferrer"
-                    className="py-5 md:px-10 px-20 hover:scale-125 rounded-full bg-red-600 text-slate-50 bg-opacity-75 flex items-center"
+                    className="py-5 md:px-16 px-20 hover:scale-125 rounded-full bg-red-600 text-slate-50 bg-opacity-75 flex items-center"
                 >
                     <BsFiles />
                     <h1 className="pl-2">CV</h1>

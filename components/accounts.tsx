@@ -5,7 +5,7 @@ import Social from './socialMedia'
 const About: React.FC = () => {
     return (
         <>
-            <section className="flex flex-col bg-bg-bg py-20 text-3xl md:text-4 h-screen md:h-screen">
+            <section className="flex flex-col bg-bg-bg py-20 text-3xl md:text-4 h-screen">
                 <div className="container mx-auto px-11">
                     <p className="leading-tight max-w-5xl mx-auto text-4xl lg:text-4xl text-bg-fg">
                         <strong>Hey, my name is Thamognya Kodi. </strong>I am a
