@@ -5,19 +5,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 @font-face {
-  font-family: "scientifica";
-  src: url("../public/assets/scientifica.ttf");
+    font-family: 'scientifica';
+    src: url('../public/assets/scientifica.ttf');
 }
 
-
 * {
-  font-family: 'Fira Code', monospace;
+    font-family: 'Fira Code', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background: #f4f5f6;
-    padding: 0;
-    margin: 0;
+
     line-height: 1.1;
     letter-spacing: 0em;
 }

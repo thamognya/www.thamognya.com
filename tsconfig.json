@@ -20,7 +20,9 @@
         "**/*.ts",
         "**/*.tsx",
         "pages/_app.jsx",
-        "utils/scrollObserver.jsx"
+        "utils/scrollObserver.jsx",
+        "components/navbar.jsx",
+        "components/themeToggle.jsx"
     ],
     "exclude": ["node_modules"]
 }

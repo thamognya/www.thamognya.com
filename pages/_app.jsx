@@ -1,16 +1,20 @@
-import '../styles/globals.css'
+import { ThemeProvider } from 'next-themes'
+
 // files
 import ScrollObserver from '../utils/scrollObserver'
 import Main from '../components/layouts/main'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps, router }) {
     return (
         <>
-            <ScrollObserver>
-                <Main>
-                    <Component {...pageProps} />
-                </Main>
-            </ScrollObserver>
+            <ThemeProvider enableSystem={true} attribute="class">
+                <ScrollObserver>
+                    <Main>
+                        <Component {...pageProps} />
+                    </Main>
+                </ScrollObserver>
+            </ThemeProvider>
         </>
     )
 }

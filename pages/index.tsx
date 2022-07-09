@@ -4,15 +4,18 @@ import Image from 'next/image'
 // file imports
 import Masthead from '../components/masthead'
 import Footer from '../components/footer'
-import Projects from '../components/accounts'
+import About from '../components/aboutMe'
 import Skills from '../components/skills'
+import Navbar from '../components/navbar'
 
 const Home: NextPage = () => {
     return (
         <>
+            <Navbar />
             <Masthead />
-            <Projects />
+            <About />
             <Skills />
+            <Footer />
         </>
     )
 }

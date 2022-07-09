@@ -2,9 +2,11 @@ import React from 'react'
 
 const Skills: React.FC = () => {
     return (
-        <div className="bg-bg-fg text-bg-bg">
-            <div className="min-h-screen"> sdfl</div>
-        </div>
+        <>
+            <div className="bg-bg-fg dark:bg-bg-bg text-bg-bg dark:text-bg-fg">
+                <div className="min-h-screen"> sdfl</div>
+            </div>
+        </>
     )
 }
 
