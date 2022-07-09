@@ -1,10 +1,11 @@
 import Image from "next/image"
+import Link from 'next/link'
 
 const Logo = () => {
     let h_w = 120/3;
     return (
     <>
-        <a href="/">
+        <link href="/">
             <div className="inline-flex items-center gap-1">
                 <Image 
                     className="hover:rotate-45 rounded-full"
@@ -19,7 +20,7 @@ const Logo = () => {
                     {"<"}Thamognya{"/>"}
                 </h1>
             </div>
-        </a>
+        </link>
     </>
     )
 }
