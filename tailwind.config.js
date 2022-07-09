@@ -8,7 +8,8 @@ module.exports = {
     theme: {
         fontFamily: {
             fira: ['Fira Code'],
-            scientifica: ['scientifica']
+            scientifica: ['scientifica'],
+            edu_vic_wa_nt_beginner: ['Edu VIC WA NT Beginner']
         },
         letterSpacing: {
             tight: '-0.15em'
