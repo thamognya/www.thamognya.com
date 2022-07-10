@@ -10,7 +10,6 @@ import Skills from '../components/skills'
 const Home: NextPage = () => {
     return (
         <>
-
             <Masthead />
             <About />
             <Skills />

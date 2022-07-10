@@ -1,7 +1,7 @@
 // In this file I set everything relating to the meta stuff and font for everything else
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
-// file imports 
+// file imports
 
 const Main = ({ children, router }: any) => {
     return (
@@ -20,9 +20,7 @@ const Main = ({ children, router }: any) => {
                     <title>Thamognya Kodi - HomePage</title>
                 </Head>
             </div>
-            <div>
-                {children}
-            </div>
+            <div>{children}</div>
         </div>
     )
 }
