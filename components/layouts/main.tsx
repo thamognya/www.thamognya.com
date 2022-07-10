@@ -1,4 +1,5 @@
 // In this file I set everything relating to the meta stuff and font for everything else
+import dynamic from 'next/dynamic'
 import Head from 'next/head'
 // file imports 
 

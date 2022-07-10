@@ -8,7 +8,7 @@ const NotFound = () => {
                     loop
                     muted
                     playsInline
-                    className="absolute w-screen h-screen object-cover"
+                    className="absolute w-screen min-h-screen object-cover"
                 >
                     <source src="/assets/bg.mp4" type="video/mp4" />
                 </video>
