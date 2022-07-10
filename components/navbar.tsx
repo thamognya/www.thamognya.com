@@ -5,8 +5,8 @@ import Logo from './logo'
 const Navbar = () => {
     return (
         <>
-            <div className="sticky top-0 bg-bg-light-gray opacity-90 p-2 backdrop-blur-md">
-                <div className="inline-flex items-center gap-2">
+            <div className="fixed top-0 left-0 right-0 w-screen bg-bg-light-gray opacity-80 p-5 backdrop-blur-xl">
+                <div className="flex inline-flex items-center gap-2">
                     <Logo />
                     <ThemeSwitch />
                 </div>

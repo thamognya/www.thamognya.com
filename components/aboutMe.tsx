@@ -20,10 +20,11 @@ const AboutRight = () => {
         <>
             <div className="container mx-auto px-11">
                 <p className="leading-tight max-w-5xl mx-auto text-3xl lg:text-3xl text-bg-fg dark:text-bg-bg">
-                    <strong>Hey, my name is Thamognya Kodi. </strong>I am a high
-                    school student who likes operating systems, kernels, and
-                    machine learning. I am a proxy maintainer and contributor at
-                    Gentoo and I hope to contribute to more opensource.
+                    <strong>Hey, my name is Thamognya Kodi. </strong>I 
+                    am a high school student who likes operating systems, 
+                    kernels, and machine learning. I am a proxy maintainer 
+                    and contributor at Gentoo notably I am the maintainer 
+                    for Gitea and I hope to contribute to more opensource.
                 </p>
             </div>
         </>
