@@ -16,7 +16,7 @@
         "@chakra-ui/icons": "^2.0.2",
         "@chakra-ui/react": "^2.2.1",
         "@fontsource/fira-code": "^4.5.10",
-        "next": "12.2.1",
+        "next": "12.2.2",
         "next-themes": "^0.2.0",
         "react": "18.2.0",
         "react-dom": "18.2.0",
