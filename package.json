@@ -13,7 +13,7 @@
         "export": "next export -o build/"
     },
     "dependencies": {
-        "@chakra-ui/icons": "^2.0.2",
+        "@chakra-ui/icons": "^2.0.4",
         "@chakra-ui/react": "^2.2.1",
         "@fontsource/fira-code": "^4.5.10",
         "next": "12.2.1",
