@@ -1,5 +1,7 @@
 If you are going to fork this project please do not use the video and put a link to my website ([www.thamognya.com](https://www.thamognya.com/)) on your website.
 
+if you want a boiler plate for tailwind css and nextjs [https://github.com/Thamognya/Template-TailWindCSS-Next-App](https://github.com/Thamognya/Template-TailWindCSS-Next-App)
+
 <hr> 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
