@@ -9,7 +9,7 @@ const Logo = () => {
                 <div className="inline-flex items-center gap-1">
                     <Image
                         className="hover:rotate-45 rounded-full"
-                        src="/assets/pfp.png"
+                        src="https://cdn.jsdelivr.net/gh/Thamognya/www.thamognya.com-assets@master/pfp.png"
                         width={h_w}
                         height={h_w}
                         alt="bird logo"

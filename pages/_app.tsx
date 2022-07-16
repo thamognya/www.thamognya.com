@@ -1,25 +1,37 @@
 import { ThemeProvider } from 'next-themes'
 import { AppProps } from 'next/app'
 import React from 'react'
+import dynamic from 'next/dynamic'
 // files
-import ScrollObserver from '../utils/scrollObserver'
-import Main from '../components/layouts/main'
 import '../styles/globals.sass'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
+const LazyScrollObserver = dynamic(() => import('../utils/scrollObserver'), {
+    ssr: true
+})
+
+const LazyMain = dynamic(() => import('../components/layouts/main'), {
+    ssr: true
+})
+
+const LazyNavbar = dynamic(() => import('../components/navbar'), {
+    ssr: true
+})
+
+const LazyFooter = dynamic(() => import('../components/footer'), {
+    ssr: true
+})
 
 function MyApp({ Component, pageProps, router }: AppProps) {
     return (
         <>
-            <Main>
-                <ScrollObserver>
+            <LazyMain>
+                <LazyScrollObserver>
                     <ThemeProvider enableSystem={true} attribute="class">
-                        <Navbar />
+                        <LazyNavbar />
                         <Component {...pageProps} />
-                        <Footer />
+                        <LazyFooter />
                     </ThemeProvider>
-                </ScrollObserver>
-            </Main>
+                </LazyScrollObserver>
+            </LazyMain>
         </>
     )
 }
