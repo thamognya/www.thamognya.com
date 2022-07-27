@@ -19,7 +19,12 @@ const AboutRight = () => {
 
 const AboutLeft = () => {
     // testing box
-    return <Box>tmp add dog model here</Box>
+    return (
+        <>
+            <h1>hey</h1>
+            <h1>hey</h1>
+        </>
+    )
 }
 
 function About() {

@@ -14,7 +14,7 @@ const Logo = () => {
                         height={h_w}
                         alt="bird logo"
                     />
-                    <h1 className="text-bg-fg dark:text-bg-fg">
+                    <h1 className="text-bg-fg dark:text-bg-bg">
                         {'<'}Thamognya{'/>'}
                     </h1>
                 </div>
