@@ -1,4 +1,4 @@
-# www.thamognya.com
+# Thamognya's Website
 
 ## Build Setup
 
