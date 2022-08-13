@@ -1,11 +1,13 @@
 <template>
-    <h1>h</h1>
+    <div>
+        <div class="flex">hi</div>
+    </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 
 export default Vue.extend({
-    name: 'IndexPage'
+    name: 'NavBar'
 })
 </script>
