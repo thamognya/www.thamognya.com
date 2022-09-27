@@ -2,17 +2,41 @@
 module.exports = {
     darkMode: 'class',
     content: [
-        './components/**/*.{js,vue,ts}',
-        './layouts/**/*.vue',
-        './pages/**/*.vue',
-        './plugins/**/*.{js,ts}',
-        './nuxt.config.{js,ts}'
+        './pages/**/*.{js,ts,jsx,tsx}',
+        './components/**/*.{js,ts,jsx,tsx}'
     ],
     theme: {
         fontFamily: {
-            fira: ['Fira Code']
+            fira: ['Fira Code'],
+            scientifica: ['scientifica'],
+            edu_vic_wa_nt_beginner: ['Edu VIC WA NT Beginner']
         },
-        extend: {}
+        letterSpacing: {
+            tight: '-0.15em'
+        },
+        extend: {
+            backgroundImage: theme => ({
+                'image-one': "url('/assets/bg.mp4')",
+                'image-two': "url('/assets/bg.mp4')"
+            }),
+            height: {
+                'half-screen': '50vh'
+            },
+            colors: {
+                'bg-bg': '#f4f5f6',
+                'bg-fg': '#3e495c',
+                'bg-red': '#f9ac9f',
+                'bg-gray': '#cad3df',
+                'bg-purple': '#5c6085',
+                'bg-light-gray': '#a6bac7',
+                'bg-pink': '#f5bece'
+            }
+        }
+    },
+    variants: {
+        extend: {
+            backgroundImage: ['dark']
+        }
     },
     plugins: []
 }
