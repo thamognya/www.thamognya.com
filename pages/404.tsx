@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 
-const LazyVideoBg = dynamic(() => import('../components/videoBg'), {
+const LazyVideoBg = dynamic(() => import('../components/assets/videoBg'), {
     ssr: true
 })
 

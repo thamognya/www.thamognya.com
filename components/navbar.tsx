@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 // file imports
-const LazyLogo = dynamic(() => import('./logo'), {
+const LazyLogo = dynamic(() => import('./assets/logo.tsx'), {
     ssr: true
 })
 
