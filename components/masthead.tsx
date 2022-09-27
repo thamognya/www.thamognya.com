@@ -7,7 +7,7 @@ import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import { ScrollContext } from '../utils/scrollObserver'
 // file imports
 // dynamic imports
-const LazyVideoBg = dynamic(() => import('./videoBg'), {
+const LazyVideoBg = dynamic(() => import('./assets/videoBg.tsx'), {
     ssr: true
 })
 

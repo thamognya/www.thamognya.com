@@ -2,6 +2,7 @@ import { ThemeProvider } from 'next-themes'
 import { AppProps } from 'next/app'
 import React from 'react'
 import dynamic from 'next/dynamic'
+import { ChakraProvider } from '@chakra-ui/react'
 // files
 import '../styles/globals.sass'
 const LazyScrollObserver = dynamic(() => import('../utils/scrollObserver'), {
@@ -26,9 +27,11 @@ function MyApp({ Component, pageProps, router }: AppProps) {
             <LazyMain>
                 <LazyScrollObserver>
                     <ThemeProvider enableSystem={true} attribute="class">
-                        <LazyNavbar />
-                        <Component {...pageProps} />
-                        <LazyFooter />
+                        <ChakraProvider>
+                            <LazyNavbar />
+                            <Component {...pageProps} />
+                            <LazyFooter />
+                        </ChakraProvider>
                     </ThemeProvider>
                 </LazyScrollObserver>
             </LazyMain>
