@@ -1,40 +1,31 @@
-import { ThemeProvider } from 'next-themes'
-import { AppProps } from 'next/app'
-import React from 'react'
-import dynamic from 'next/dynamic'
-import { ChakraProvider } from '@chakra-ui/react'
-// files
+import { AnimatePresence } from 'framer-motion'
+import Chakra from '../components/chakra'
+
 import '../styles/globals.sass'
-const LazyScrollObserver = dynamic(() => import('../utils/scrollObserver'), {
-    ssr: true
-})
+import Main from '../components/layouts/main'
 
-const LazyMain = dynamic(() => import('../components/layouts/main'), {
-    ssr: true
-})
+if (typeof window !== 'undefined') {
+    window.history.scrollRestoration = 'manual'
+}
 
-const LazyNavbar = dynamic(() => import('../components/navbar'), {
-    ssr: true
-})
-
-const LazyFooter = dynamic(() => import('../components/footer'), {
-    ssr: true
-})
-
-function MyApp({ Component, pageProps, router }: AppProps) {
+function MyApp({ Component, pageProps, router }: any) {
     return (
         <>
-            <LazyMain>
-                <LazyScrollObserver>
-                    <ThemeProvider enableSystem={true} attribute="class">
-                        <ChakraProvider>
-                            <LazyNavbar />
-                            <Component {...pageProps} />
-                            <LazyFooter />
-                        </ChakraProvider>
-                    </ThemeProvider>
-                </LazyScrollObserver>
-            </LazyMain>
+            <Chakra cookies={pageProps.cookies}>
+                <Main router={router}>
+                    <AnimatePresence
+                        exitBeforeEnter
+                        initial={true}
+                        onExitComplete={() => {
+                            if (typeof window !== 'undefined') {
+                                window.scrollTo({ top: 0 })
+                            }
+                        }}
+                    >
+                        <Component {...pageProps} key={router.route} />
+                    </AnimatePresence>
+                </Main>
+            </Chakra>
         </>
     )
 }
