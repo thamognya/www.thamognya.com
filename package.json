@@ -17,7 +17,7 @@
         "@emotion/react": "^11.10.4",
         "@emotion/styled": "^11.10.4",
         "@fontsource/fira-code": "^4.5.12",
-        "framer-motion": "^6.5.1",
+        "framer-motion": "^7.5.3",
         "next": "12.3.1",
         "next-themes": "^0.2.1",
         "react": "18.2.0",
@@ -28,7 +28,7 @@
     },
     "devDependencies": {
         "@jest/types": "^29.1.2",
-        "@types/node": "18.8.3",
+        "@types/node": "18.8.4",
         "@types/react": "18.0.21",
         "@types/react-dom": "18.0.6",
         "autoprefixer": "^10.4.12",
