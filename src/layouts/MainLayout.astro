@@ -6,7 +6,15 @@ export interface Props {
 const { title } = Astro.props
 
 import '../../styles/globals.scss'
+import NavBar from '../components/navbar/large'
+import BottomBar from '../components/bottombar/large'
 ---
+
+<!--
+This component is now interactive on the page! 
+The rest of your website remains static and zero JS.
+<MyReactComponent client:load />
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +31,9 @@ import '../../styles/globals.scss'
     </head>
     <body>
         <div class="font-fira">
+            <NavBar />
             <slot />
+            <BottomBar />
         </div>
     </body>
 </html>
