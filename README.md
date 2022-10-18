@@ -1,3 +1,7 @@
+# www.thamognya.com
+
+<hr />
+
 # Astro Starter Kit: Minimal
 
 ```
