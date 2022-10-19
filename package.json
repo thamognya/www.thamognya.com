@@ -1,5 +1,5 @@
 {
-    "name": "@example/minimal",
+    "name": "www.thamognya.com",
     "type": "module",
     "version": "0.0.1",
     "private": true,
@@ -12,7 +12,7 @@
         "prettier": "prettier --write '**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue,scss,sass}'",
         "upgrade": "npx npm-check-updates",
         "upgrade:force": "npx npm-check-updates -u && npm i --force",
-        "safety": "ava '**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue,scss,sass}' && alex '**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue,scss,sass}'",
+        "safety": "alex '**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue,scss,sass}' --quiet",
         "lint": "npm run upgrade:force && npm run prettier && npm run safety"
     },
     "dependencies": {
@@ -42,7 +42,6 @@
         "astro": "^1.5.1",
         "astro-compress": "^1.0.12",
         "autoprefixer": "^10.4.12",
-        "ava": "^4.3.3",
         "cssnano": "^5.1.13",
         "lit": "^2.4.0",
         "npm-check-updates": "^16.3.13",
