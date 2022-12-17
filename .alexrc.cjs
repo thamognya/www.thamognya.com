@@ -1,1 +1,0 @@
-exports.profanitySureness = 1
