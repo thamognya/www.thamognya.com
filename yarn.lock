@@ -63,10 +63,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/font@13.0.7":
-  version "13.0.7"
-  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.0.7.tgz#e0046376edb0ce592d9cfddea8f4ab321eb1515a"
-  integrity sha512-39SzuoMI6jbrIzPs3KtXdKX03OrVp6Y7kRHcoVmOg69spiBzruPJ5x5DQSfN+OXqznbvVBNZBXnmdnSqs3qXiA==
+"@next/font@13.4.0":
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.4.0.tgz#012952c651202b3cf19da11459092ea220a01620"
+  integrity sha512-Mo/71qU/si4yQ/pZrnI5OU+GETb4dIvWTXgEZj/rCwyD+o9AUh6wOd15nm+sPG/BCyS1f2U0Q3U5k3ui5DKANg==
 
 "@next/swc-android-arm-eabi@13.0.7":
   version "13.0.7"
